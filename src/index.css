@@ -1,0 +1,81 @@
+/* Insurance Professional Theme */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+:root {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  line-height: 1.6;
+  font-weight: 400;
+  color: #1E293B;
+  background: linear-gradient(135deg, #F8FAFC 0%, #E2E8F0 100%);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #F8FAFC 0%, #E2E8F0 100%);
+}
+
+/* Professional Insurance Gradients */
+.gradient-primary {
+  background: linear-gradient(135deg, #1565C0 0%, #42A5F5 100%);
+}
+
+.gradient-success {
+  background: linear-gradient(135deg, #2E7D32 0%, #66BB6A 100%);
+}
+
+.gradient-card {
+  background: linear-gradient(145deg, #FFFFFF 0%, #F8FAFC 100%);
+  border: 1px solid #E2E8F0;
+}
+
+/* Trust & Security Visual Elements */
+.security-badge {
+  background: linear-gradient(135deg, #0D47A1 0%, #1565C0 100%);
+  color: white;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.trust-indicator {
+  background: linear-gradient(135deg, #1B5E20 0%, #2E7D32 100%);
+  color: white;
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 0.7rem;
+}
+
+/* Modern Card Shadows */
+.card-shadow {
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+.card-shadow-lg {
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+
+/* Professional Status Colors */
+.status-approved { color: #00C853; }
+.status-pending { color: #FF8F00; }
+.status-rejected { color: #D32F2F; }
+.status-processing { color: #0288D1; }
+
+/* Clean Links */
+a {
+  color: #1565C0;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: #0D47A1;
+  text-decoration: underline;
+}

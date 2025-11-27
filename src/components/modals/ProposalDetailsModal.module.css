@@ -1,0 +1,186 @@
+
+.sectionHeader {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.sectionPaper {
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.gridContainer {
+  display: grid;
+  gap: 24px;
+}
+
+.policyGrid {
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.healthGrid {
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+}
+
+.personalGrid {
+  grid-template-columns: 1fr 1fr;
+}
+
+
+.infoCard {
+  padding: 16px;
+  border-radius: 4px;
+}
+
+.greyCard {
+  background-color: #f5f5f5;
+}
+
+.successCard {
+  background-color: #e8f5e9;
+}
+
+.warningCard {
+  background-color: #fff3e0;
+}
+
+.infoCardColor {
+  background-color: #e3f2fd;
+}
+
+.secondaryCard {
+  background-color: #fce4ec;
+}
+
+
+.healthCard {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+}
+
+.healthCardSuccess {
+  border-color: #4caf50;
+}
+
+.healthCardError {
+  border-color: #f44336;
+}
+
+.healthCardWarning {
+  border-color: #ff9800;
+}
+
+
+.caption {
+  font-size: 0.75rem;
+  font-weight: bold;
+  color: #666;
+}
+
+.captionSuccess {
+  color: #2e7d32;
+}
+
+.captionWarning {
+  color: #f57c00;
+}
+
+.captionInfo {
+  color: #1976d2;
+}
+
+.captionSecondary {
+  color: #7b1fa2;
+}
+
+.valueText {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.valueSuccess {
+  color: #2e7d32;
+}
+
+.valueWarning {
+  color: #f57c00;
+}
+
+.valueInfo {
+  color: #1976d2;
+}
+
+.valueSecondary {
+  color: #7b1fa2;
+}
+
+/* Timeline */
+.timelineContainer {
+  display: flex;
+  gap: 32px;
+}
+
+.timelineItem {
+  text-align: center;
+}
+
+.notesSection {
+  background-color: #e3f2fd;
+}
+
+.notesTitle {
+  color: #1976d2;
+  margin-bottom: 8px;
+}
+
+.dialogHeader {
+  background-color: #1976d2;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.headerAvatar {
+  background-color: white;
+  color: #1976d2;
+}
+
+.headerInfo {
+  flex: 1;
+}
+
+.headerChip {
+  background-color: white;
+  color: #333;
+  font-weight: bold;
+}
+
+.dialogContent {
+  padding: 24px;
+}
+
+.contentContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+
+.dialogActions {
+  padding: 24px;
+  background-color: #f5f5f5;
+}
+
+.conditionsPaper {
+  padding: 16px;
+  margin-top: 8px;
+  background-color: #f5f5f5;
+}
